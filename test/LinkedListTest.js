@@ -20,3 +20,13 @@ describe('LinkedList', function() {
     assert.equal(list.size(), 1);
   });
 });
+describe('LinkedList', function() {
+  it('Peek first and last values', function() {
+    let list = new LinkedList();
+    list.add(1);
+    list.add(2);
+    assert.equal(list.peekFirst(),2);
+    assert.equal(list.peekLast(), 1);
+  });
+});
+
