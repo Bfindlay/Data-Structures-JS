@@ -2,5 +2,7 @@
 
 let LinkedList = require('./lib/LinkedList');
 
-let l = new LinkedList();
-
+let list = new LinkedList();
+list.add(1);
+list.add(2);
+list.add(3);
