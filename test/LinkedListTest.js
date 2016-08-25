@@ -29,16 +29,16 @@ describe('Peek first test', function() {
     assert.equal(list.peekLast(), 1);
   });
 });
-  describe("Get first test", function(){
-      it("should remove the first value",function(){
-        let list = new LinkedList();
-        list.add(1);
-        list.add(2);
-        list.add(3);
-        assert.equal(list.size(), 3);
-        assert.equal(list.getFirst(), 3);
-        assert.equal(list.size(),2);
-      });
+describe("Get first test", function(){
+    it("should remove the first value",function(){
+    let list = new LinkedList();
+    list.add(1);
+    list.add(2);
+    list.add(3);
+    assert.equal(list.size(), 3);
+    assert.equal(list.getFirst(), 3);
+    assert.equal(list.size(),2);
+    });
 });
 
 describe("Get last test", function(){
